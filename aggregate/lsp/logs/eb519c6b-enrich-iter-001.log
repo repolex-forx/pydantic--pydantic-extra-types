@@ -1,0 +1,23 @@
+[2026-11-22T06:17:13Z] === ENRICH ITERATION 1 START | repo=pydantic/pydantic-extra-types sha=eb519c6b ===
+[2026-11-22T06:17:13Z] [iter=1] PHASE START: enrich repo=pydantic/pydantic-extra-types sha=eb519c6b runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/eb519c6b-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/eb519c6bd5c2ffaca88e22755fae846081834e2d.nq.gz
+[2026-11-22T06:17:27Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-11-22T06:17:31Z] [iter=1] AST store loaded triples=468439 load_secs=4 mem_mb=803 MB
+[2026-11-22T06:17:31Z] [iter=1] Step 2: Finding LSP targets mem_mb=803 MB
+[2026-11-22T06:17:32Z] [iter=1] LSP targets found call_sites=1975 imports=323 extends=134 implements=0 secs=1
+[2026-11-22T06:17:32Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=803 MB
+[2026-11-22T06:17:35Z] [iter=1] Position index built positions=32089 nodes_with_types=43628 secs=3 mem_mb=803 MB
+[2026-11-22T06:17:35Z] [iter=1] Step 3: Starting LSP resolution mem_mb=803 MB already_completed_types=[] already_completed_files=0
+[2026-11-22T06:17:35Z] [iter=1] Resolving target type target_type=call_site count=1975
+[2026-11-22T06:17:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=0.5 files_done=3 resolved=46 errors=0 current=pydantic_extra_types/language_code.py
+[2026-11-22T06:18:18Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.1 files_done=9 resolved=386 errors=0 current=pydantic_extra_types/country.py
+[2026-11-22T06:18:55Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.7 files_done=25 resolved=960 errors=0 current=pydantic_extra_types/semver.py
+[2026-11-22T06:19:26Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.2 files_done=34 resolved=1218 errors=0 current=pydantic_extra_types/semantic_version.py
+[2026-11-22T06:19:53Z] [iter=1] Target type resolved target_type=call_site resolved=1555 errors=0 secs=138 mem_mb=803 MB
+[2026-11-22T06:19:53Z] [iter=1] Resolving target type target_type=import_statement count=323
+[2026-11-22T06:19:56Z] [iter=1] Target type resolved target_type=import_statement resolved=262 errors=0 secs=3 mem_mb=803 MB
+[2026-11-22T06:19:56Z] [iter=1] Resolving target type target_type=extends_clause count=134
+[2026-11-22T06:19:57Z] [iter=1] HEARTBEAT target_type=extends_clause elapsed_min=2.7 files_done=0 resolved=0 errors=0 current=pydantic_extra_types/country.py
+[2026-11-22T06:19:59Z] [iter=1] Target type resolved target_type=extends_clause resolved=129 errors=0 secs=3 mem_mb=803 MB
+[2026-11-22T06:21:27Z] [iter=1] Step 5: Writing final enrichment file triples=38193
+[2026-11-22T06:21:27Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/eb519c6bd5c2ffaca88e22755fae846081834e2d.nq.gz size_kb=840
+[2026-11-22T06:21:27Z] [iter=1] PHASE END: enrich elapsed_s=255 elapsed_min=4.2 total_triples=38193

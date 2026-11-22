@@ -216,6 +216,153 @@
       ],
       "ast": [
         "aggregate/ast/eb519c6bd5c2ffaca88e22755fae846081834e2d/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/eb519c6bd5c2ffaca88e22755fae846081834e2d.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "pydantic",
+          "ecosystem": "PYPI",
+          "version": "2.5.2",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic",
+          "githubCommit": "b75cb28e64a57c5656574f244ec4eb59e656dc75",
+          "githubTag": "v2.5.2",
+          "githubUrl": "https://github.com/pydantic/pydantic",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "typing-extensions",
+          "ecosystem": "PYPI",
+          "version": "4.16.0",
+          "githubOrg": "python",
+          "githubRepo": "typing_extensions",
+          "githubCommit": "f29cd28d8ed7642cafb1d18daf5aa41be6a5c0aa",
+          "githubTag": "4.16.0",
+          "githubUrl": "https://github.com/python/typing_extensions",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "phonenumbers",
+          "ecosystem": "PYPI",
+          "version": "8",
+          "githubOrg": "daviddrysdale",
+          "githubRepo": "python-phonenumbers",
+          "githubUrl": "https://github.com/daviddrysdale/python-phonenumbers",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pycountry",
+          "ecosystem": "PYPI",
+          "version": "23",
+          "githubOrg": "pycountry",
+          "githubRepo": "pycountry",
+          "githubUrl": "https://github.com/pycountry/pycountry",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "jsonschema",
+          "ecosystem": "PYPI",
+          "version": "4.0.0",
+          "githubOrg": "python-jsonschema",
+          "githubRepo": "jsonschema",
+          "githubCommit": "86e41f326fdfe6fdcaa50d40cb40389faace7395",
+          "githubTag": "v4.0.0",
+          "githubUrl": "https://github.com/python-jsonschema/jsonschema",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "semver",
+          "ecosystem": "PYPI",
+          "version": "3.0.2",
+          "githubOrg": "python-semver",
+          "githubRepo": "python-semver",
+          "githubCommit": "ec9348aefd8e9f287f451fcf2e837621a40e3ca4",
+          "githubTag": "3.0.2",
+          "githubUrl": "https://github.com/python-semver/python-semver",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "python-ulid",
+          "ecosystem": "PYPI",
+          "version": "1",
+          "githubOrg": "mdomke",
+          "githubRepo": "python-ulid",
+          "githubUrl": "https://github.com/mdomke/python-ulid",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pendulum",
+          "ecosystem": "PYPI",
+          "version": "3.0.0",
+          "githubOrg": "sdispater",
+          "githubRepo": "pendulum",
+          "githubCommit": "0fcd10217af0469b3edda072f2b152d5273f3d58",
+          "githubTag": "3.0.0",
+          "githubUrl": "https://github.com/sdispater/pendulum",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pymongo",
+          "ecosystem": "PYPI",
+          "version": "4.0.0",
+          "githubOrg": "mongodb",
+          "githubRepo": "mongo-python-driver",
+          "githubUrl": "https://github.com/mongodb/mongo-python-driver",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pytz",
+          "ecosystem": "PYPI",
+          "version": "2024.1",
+          "githubOrg": "stub42",
+          "githubRepo": "pytz",
+          "githubUrl": "https://github.com/stub42/pytz.git",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "tzdata",
+          "ecosystem": "PYPI",
+          "version": "2024.1",
+          "githubOrg": "python",
+          "githubRepo": "tzdata",
+          "githubCommit": "7e71c6bf79c2a68dbaab908e51aa4f5985a65d08",
+          "githubTag": "2024.1",
+          "githubUrl": "https://github.com/python/tzdata",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "cron-converter",
+          "ecosystem": "PYPI",
+          "version": "1.2.2",
+          "githubOrg": "Sonic0",
+          "githubRepo": "cron-converter",
+          "githubCommit": "be87e0976fcf95e2ad33859f95516fc68d61569c",
+          "githubTag": "v1.2.2",
+          "githubUrl": "https://github.com/Sonic0/cron-converter",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "uuid-utils",
+          "ecosystem": "PYPI",
+          "version": "0.6.0",
+          "githubOrg": "aminalaee",
+          "githubRepo": "uuid-utils",
+          "githubCommit": "5412ceae9e2ff18a7b1df30c58c31d68688fa731",
+          "githubTag": "0.6.0",
+          "githubUrl": "https://github.com/aminalaee/uuid-utils",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pydantic-core",
+          "ecosystem": "PYPI",
+          "version": "2.50.5",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic",
+          "githubUrl": "https://github.com/pydantic/pydantic",
+          "source": "lsp",
+          "raw_name": "pydantic_core",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.13/site-packages/pydantic_core/_pydantic_core/__init__.pyi"
+        }
       ]
     }
   ],
